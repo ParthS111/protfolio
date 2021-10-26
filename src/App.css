@@ -4,6 +4,8 @@
   --primary-white: #fff;
   --primary-orange: #f9ab00;
   --primary-dark: rgba(255,255,255,0);
+  --primary-red: #ef4035;
+  --primary-red-hover: #f33501;
 }
 
 body{
@@ -18,6 +20,9 @@ body{
 
 /*============ Menu Link=====*/
 
+nav{
+  z-index: 2;
+}
 .nav a.nav-link{
   /* font-weight: 500; */
   letter-spacing: 0.0375rem;
@@ -49,55 +54,66 @@ nav ul li{
 }
 
 
+/*-----------Header-------------*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-.App {
-  text-align: center;
+.header-wraper{
+  position: relative;
+  background: url(background.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-info{
   display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 20rem;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto" sans-serif;
+  z-index: 1;
+
+}
+.main-info h1{
+  color: var(--primary-orange);
+  text-transform: uppercase;
 }
 
-.App-link {
-  color: #61dafb;
+
+/*--------  typed-text-----*/
+
+.typed-text{
+  font-size: 2rem;
+  color: var(--primary-white);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-main-offer{
+  border: 1px solid var(--primary-red);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: var(--primary-white);
+  margin-top: 2rem;
 }
+.btn-main-offer:hover{
+  text-decoration: none;
+  background-color: var(--primary-red);
+}
+.tsparticles-canvas-el{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+
+
+
+
+
+
