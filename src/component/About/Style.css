@@ -1,0 +1,38 @@
+.footer-section{
+    width: 100%;
+    height: auto;
+    padding: 70px 0 20px 0;
+    background: #00abff;
+    position: relative;
+}
+.footer-section p{
+    color: white;
+}
+.footer-section h3{
+    font-size: 1.5rem !important;
+}
+.footer-section li a{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    
+}
+
+#myBtn{
+    /* display: none; */
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: white;
+    background: #00abff;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+#myBtn:hover{
+    background: #606060;
+}

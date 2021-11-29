@@ -3,6 +3,8 @@ import Typed from 'react-typed';
 const Header = () => {
     return (
         <div className="header-wraper">
+
+            
             <div className="main-info">
                 <h1>Hello this is my first page</h1>
                 <Typed

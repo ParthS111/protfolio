@@ -63,7 +63,40 @@ nav ul li{
   background-position: center;
   height: 90vh;
 }
-
+.header-wraper-Details{
+  position: relative;
+  background-color:#e9ecec !important  ;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+.label{
+  font-size: 30px;
+  color: #f90015;
+  font-weight:bolder;
+  text-decoration: wavy;
+  text-transform: capitalize;
+  justify-content: space-evenly;
+  text-align: center;
+  align-self: space-between;
+  margin: 0px 50px 0px 50px;
+}
+.label:hover{
+  font-size: 30px;
+  color: #f9ab00;
+  font-weight:bolder;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.center-value{
+  flex-direction: row;
+  background-color: violet;
+  width: 100vh;
+  background-size: cover;
+  background-position: center;
+  /* justify-content: space-between; */
+  /* align-content: space-between; */
+}
 .main-info{
   display: flex;
   position: absolute;

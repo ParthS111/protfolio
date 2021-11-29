@@ -13,7 +13,9 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-particles-js": "^3.5.3",
+    "react-router-dom": "^6.0.1",
     "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.4",
     "react-typed": "^1.2.0",
     "tsparticles": "^1.36.0",
     "web-vitals": "^1.0.1"
